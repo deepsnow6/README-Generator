@@ -13,8 +13,18 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'liveLink',
+    message: 'Provide the live link to your application:',
+  },
+  {
+    type: 'input',
     name: 'description',
     message: 'Provide a description of your project:',
+  },
+  {
+    type: 'input',
+    name: 'features',
+    message: 'Provide a list of application features:',
   },
   {
     type: 'input',
@@ -35,6 +45,26 @@ const questions = [
     type: 'input',
     name: 'tests',
     message: 'Provide test instructions:',
+  },
+  {
+    type: 'input',
+    name: 'collaborators',
+    message: 'Provide the names and github profiles of any collaborators:',
+  },
+  {
+    type: 'input',
+    name: 'thirdPartyAssets',
+    message: 'Provide the names of any third-party assets that require attribution and list creators:',
+  },
+  {
+    type: 'input',
+    name: 'tutorials',
+    message: 'Provide the links to any tutorials used:',
+  },
+  {
+    type: 'input',
+    name: 'sourceCode',
+    message: 'Provide the location of any source code:',
   },
   {
     type: 'list',
@@ -70,11 +100,17 @@ function init() {
   inquirer.prompt(questions).then((responses) => {
     const {
       title,
+      liveLink,
       description,
+      features,
       installation,
       usage,
       contribution,
       tests,
+      collaborators,
+      thirdPartyAssets,
+      tutorials,
+      sourceCode,
       license,
       github,
       email,
@@ -82,16 +118,23 @@ function init() {
 
     const content = `# ${title}
 
+## Live Link: ${liveLink}
+
 ## Description
 ${description}
 
 ## Table of Contents
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Credits](#credits)
+- [License](#license)
 - [Questions](#questions)
+
+## Features
+${features}
 
 ## Installation
 ${installation}
@@ -99,14 +142,22 @@ ${installation}
 ## Usage
 ${usage}
 
-## License
-This project is licensed under the ${license} license.
-
 ## Contributing
 ${contribution}
 
 ## Tests
 ${tests}
+
+##Credits
+Collaborators: ${collaborators}
+Third-party Assets: ${thirdPartyAssets}
+Tutorials: ${tutorials}
+Source-code: ${sourceCode}
+
+
+## License
+This project is licensed under the ${license} license. See the LICENSE file for more information.
+
 
 ## Questions
 For any questions or concerns, please reach out to me on GitHub or via email:
