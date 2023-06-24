@@ -5,7 +5,7 @@
 
 
 
-## Live Link: Live link to demonstration video:https://drive.google.com/file/d/1aicCq500K9q8EN_zQUnqjct_1Ud2cUuO/view
+## Live Link: Demonstration video: https://drive.google.com/file/d/1aicCq500K9q8EN_zQUnqjct_1Ud2cUuO/view
 
 ## Description
 This README Generator is a command-line interface (CLI) application that automates the process of creating professional README files for software projects. It purpose is to simplify the task of documenting projects by generating a standardized professional README based on user input.
@@ -22,7 +22,7 @@ This README Generator is a command-line interface (CLI) application that automat
 
 ## Features
 1. Interactive interface for receiving user input
-2. Automatic generation of table of contents
+2. Automated table of contents
 3. Dynamic license badge inclusion
 
 ## Installation
@@ -50,5 +50,5 @@ This project is licensed under the MIT license. See the LICENSE file for more in
 
 ## Questions
 For any questions or concerns, please reach out to me on GitHub or via email:
-- GitHub: [deepsnow66](https://github.com/deepsnow66)
+- GitHub: [(https://github.com/deepsnow66)]
 - Email: denirensign@aol.com
