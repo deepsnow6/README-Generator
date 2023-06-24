@@ -116,7 +116,14 @@ function init() {
       email,
     } = responses;
 
-    const content = `# ${title}
+    let licenseBadge = '';
+
+      if (license !== 'None') {
+        licenseBadge = `![License](https://img.shields.io/badge/License-${encodeURIComponent(license)}-blue.svg)\n\n`;
+      }
+
+      const content = `# ${title}\n\n${licenseBadge}
+
 
 ## Live Link: ${liveLink}
 
@@ -148,7 +155,7 @@ ${contribution}
 ## Tests
 ${tests}
 
-##Credits
+## Credits
 Collaborators: ${collaborators}
 Third-party Assets: ${thirdPartyAssets}
 Tutorials: ${tutorials}
