@@ -50,5 +50,5 @@ This project is licensed under the MIT license. See the LICENSE file for more in
 
 ## Questions
 For any questions or concerns, please reach out to me on GitHub or via email:
-- GitHub: [(https://github.com/deepsnow66)]
+- GitHub: [(https://github.com/deepsnow6)]
 - Email: denirensign@aol.com
