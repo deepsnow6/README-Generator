@@ -2,7 +2,9 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+![Screen Shot 2023-07-10 at 10 08 34 AM](https://github.com/deepsnow6/README-Generator/assets/130337959/d9376ace-48d7-46ca-a010-5f27ca6bff67)
 
+![Screen Shot 2023-07-10 at 10 08 26 AM](https://github.com/deepsnow6/README-Generator/assets/130337959/8cdc9df0-fa26-4346-88ef-4c7a0cdb7d0c)
 
 
 ## Live Link: Demonstration video: https://drive.google.com/file/d/1aicCq500K9q8EN_zQUnqjct_1Ud2cUuO/view
